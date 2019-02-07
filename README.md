@@ -35,5 +35,5 @@ Using Git Bash in the project folder:
 
 ### Other notes
 
-
+Free Stock Photos at [https://www.pexels.com/](https://www.pexels.com/)
 
