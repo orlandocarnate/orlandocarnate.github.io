@@ -1,12 +1,15 @@
-# Recommended Assignment - That Portfolio Though
+# [Orlando Carnate GitHub Home Page](https://orlandocarnate.github.io/)
 
 ## Overview
+I am Full Stack Developer specializing in programming, with skills in JavaScript, Bootstrap, SQL, and Python. I will be updating my portfolio page frequently.
+* [GitHub Portfolio Page](https://orlandocarnate.github.io/)
+* [GitHub Repositories](https://github.com/orlandocarnate)
+* [LinkedIn](https://www.linkedin.com/in/orlando-carnate/)
 
-In this assignment, I'll build a professional portfolio site using HTML/CSS. I will create the site based on images from the homework.
-I will then upload it to GitHub for everyone to view.
+## Portfolio Page Future Development
+Future plans are to rebuild profile page with jQuery, Node.js, and React and run it on my own domain and server.
 
-### Site Structure
-
+## Site Structure
 The site folder consists of the following:
 * `index.html` - home and about page
 * `portfolio.html` - portfolio page

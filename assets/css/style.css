@@ -1,7 +1,13 @@
-body {
+/* html {
+    font-size: 1rem;
+} */
 
+nav, footer {
     background-image: url('../images/random_grey_variations_@2X.png');
-
-
-
 }
+
+/* @media (max-width: 320px) {
+    html {
+        font-size: 1.5rem;
+    }
+} */
