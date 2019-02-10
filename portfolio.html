@@ -15,42 +15,93 @@
 
 </head>
 
-<body class="bg-dark">
+<body">
 
-    <header class="bg-white border-bottom border-dark mb-3 sticky-top">
-        <div class="container">
-            <div class="row d-flex justify-content-center">
-                <nav class="col-md-10 navbar navbar-expand-lg navbar-light bg-white p-0">
-                    <a class="navbar-brand mr-auto bg-info text-white m-0 p-3 h1" href="index.html">Orlando Carnate</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link border-right" href="index.html">About</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link border-right" href="portfolio.html">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Orlando Carnate</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link border-right" href="index.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border-right" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron bg-white px-5">
+        <div class="media">
+            <!-- <img src="assets/images/orlandocarnate1-sm.jpg" class="align-self-start mr-3 rounded img-fluid"> -->
+            <div class="media-body">
+                <h3 class="mt-0">Orlando Carnate</h3>
+                <h4>Full Stack Web Developer</h4>
+                <hr>
+                <a href="https://github.com/orlandocarnate" target="_blank">GitHub Page</a> | <a
+                    href="https://www.linkedin.com/in/orlando-carnate/" target="_blank">LinkedIn Page</a>
+                | <a href="mailto:orlando.carnate@gmail.com" target="_blank">orlando.carnate@gmail.com</a> |
+                847-877-5583 <br />
+                <a href="#" target="_blank">PDF Resume</a>
             </div>
+
         </div>
     </header>
 
-    <!-- RESEARCH card img-overlay mb-1 -->
+    <section class="row">
+        <div class="card" style="width: 24rem;">
+            <img class="card-img-top" src="assets/images/finger-769300_640.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 24rem;">
+            <img class="card-img-top" src="assets/images/finger-769300_640.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 24rem;">
+            <img class="card-img-top" src="assets/images/finger-769300_640.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 24rem;">
+            <img class="card-img-top" src="assets/images/finger-769300_640.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </section>
 
-    <div class="container pb-5 m-0 mx-auto">
+    <div class="container-fluid">
+        <div class="row">
+            <h1>Portfolio</h1>
+            <hr>
+        </div>
         <div class="row d-flex justify-content-center">
             <section class="col-md-10 border border-secondary bg-white pt-3 px-3 pb-5 mb-5">
-                <h1>Portfolio</h1>
-                <hr>
+
 
                 <div class="row px-0 py-2">
                     <div class="col-lg-4 col-md-6 mx-0 mb-4">
@@ -110,12 +161,13 @@
                             <div class="card m-0">
                                 <img class="card-img-top" src='assets/images/pexels-photo-261949.jpeg'>
                                 <div class="card-img-overlay p-0 d-flex flex-column justify-content-end">
-                                    <p class="card-title bg-info text-white text-center p-2 h4">Charitable News Web App</p>
+                                    <p class="card-title bg-info text-white text-center p-2 h4">Charitable News Web App
+                                    </p>
                                 </div>
                             </div>
                         </a>
                     </div>
-                    
+
             </section>
         </div>
     </div>
@@ -141,6 +193,6 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
-</body>
+    </body>
 
 </html>
