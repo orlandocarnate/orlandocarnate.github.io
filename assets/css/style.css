@@ -49,16 +49,15 @@ footer, h5 {
     width: 100%;
     margin-bottom: 15px;
 }
-/* @media (max-width: 576px) {
+@media (max-width: 576px) {
     .portrait {
-        width: 25%;
+        width: 50%;
         object-fit: cover;
     }
     .aboutme {
         text-align: center;
-        font-size: .8em;
     }
     .aboutme, .contact-info {
-        font-size: .8em;
+        /* font-size: .8em; */
     }
-} */
+}
