@@ -3,11 +3,30 @@
 } */
 body {
     background-image: url('../images/white_carbon.png');
+    font-family: 'Monda', sans-serif;
+}
+
+.navbar-brand, #portfolio {
+    font-size: 2em;
+    color: #fe6f61;
 }
 
 nav, footer, .title {
-    background-image: url('../images/black_thread.png');
+    background-image: url('../images/dark-paths.png');
     color: white;
+}
+
+#contact {
+    cursor: pointer;
+}
+
+footer, h5 {
+    color: #fe6f61;
+}
+
+.btn {
+    background-color: #fe6f61;
+    border: none;
 }
 
 .portrait {
