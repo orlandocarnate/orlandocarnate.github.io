@@ -34,10 +34,10 @@
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link border-right" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link border-right" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a id="contact" class="nav-link">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -124,7 +124,7 @@
     </main>
 
     <section class="container mb-5">
-        <div class="row title d-flex justify-content-center mb-5">
+        <div id="portfolio" class="row title d-flex justify-content-center mb-5">
             <h2>Portfolio</h2>
         </div>
         <div class="row">
@@ -209,6 +209,42 @@
         Copyright Orlando Carnate 2019 &copy;
     </footer>
 
+    <!-- Modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Contact Me</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>Name:</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email:</label>
+                            <input type="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Message:</label>
+                            <textarea rows="4" class="form-control" required></textarea>
+                        </div>
+
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -221,6 +257,15 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+
+    <script>
+        // MODEL jQuery event listener
+        $(document).ready(function () {
+            $("#contact").click(function () {
+                $("#contactModal").modal();
+            });
+        });
+    </script>
 </body>
 
 </html>
