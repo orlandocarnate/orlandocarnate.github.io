@@ -22,6 +22,8 @@
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 
+    <!-- Moment.js -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 
 </head>
 
@@ -113,8 +115,6 @@
 
         </p>
         <!-- 
-
-
         <p>
             While taking a break from coding my family and I like to travel to at least one National Park every year. We
             bring a National Parks Passport
@@ -122,12 +122,9 @@
             drive and I can enjoy the ride.) This past summer we visited
             Yosemite, Sequoia and King's Canyon National Parks in California.
         </p>
-
-        
         <p>
             Here is a list of some of the parks we have visited so far:
         </p>
-        
         <ul class="lead">
             <li>Grand Canyon</li>
             <li>Zion</li>
@@ -136,7 +133,6 @@
             <li>Everglades</li>
             <li>Mammoth Cave</li>
         </ul> -->
-
 
     </main>
 
@@ -262,18 +258,19 @@
                     <form>
                         <div class="form-group">
                             <label>Name:</label>
-                            <input type="text" class="form-control" required>
+                            <input id="sender-name" type="text" class="form-control" required>
                         </div>
                         <div class="form-group">
                             <label>Email:</label>
-                            <input type="email" class="form-control" required>
+                            <input id="sender-email" type="email" class="form-control" required>
                         </div>
                         <div class="form-group">
                             <label>Message:</label>
-                            <textarea rows="4" class="form-control" required></textarea>
+                            <textarea id="sender-message" rows="4" class="form-control" placeholder="Enter message here" required></textarea>
                         </div>
 
-                        <button class="btn btn-primary" type="submit">Submit</button>
+                        <button id="contact-submit" class="btn btn-primary" type="submit">Submit</button>
+                        <div id="sent-msg">Thanks! Message sent.</div>
                     </form>
                 </div>
                 <div class="modal-footer">
@@ -296,14 +293,9 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
-    <script>
-        // MODEL jQuery event listener
-        $(document).ready(function () {
-            $("#contact").click(function () {
-                $("#contactModal").modal();
-            });
-        });
-    </script>
+    <!--  main script-->
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
+    <script src="assets/javascript/main.js"></script>
 </body>
 
 </html>
