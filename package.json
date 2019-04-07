@@ -1,0 +1,22 @@
+{
+  "name": "orlandocarnate.github.io",
+  "version": "1.0.0",
+  "description": "I am Full Stack Developer specializing in programming, with skills in JavaScript, Bootstrap, SQL, and Python. I will be updating my portfolio page frequently.\r * [GitHub Portfolio Page](https://orlandocarnate.github.io/)\r * [GitHub Repositories](https://github.com/orlandocarnate)\r * [LinkedIn](https://www.linkedin.com/in/orlando-carnate/)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orlandocarnate/orlandocarnate.github.io.git"
+  },
+  "author": "Orlando Carnate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orlandocarnate/orlandocarnate.github.io/issues"
+  },
+  "homepage": "https://github.com/orlandocarnate/orlandocarnate.github.io#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
