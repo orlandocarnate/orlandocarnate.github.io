@@ -8,7 +8,7 @@ body {
 
 .navbar-brand, #portfolio {
     font-size: 2em;
-    color: #fe6f61;
+    /* color: #fe6f61; */
 }
 
 nav, footer, .title {
@@ -21,7 +21,7 @@ nav, footer, .title {
 }
 
 footer, h5 {
-    color: #fe6f61;
+    /* color: #fe6f61; */
 }
 
 .btn {
