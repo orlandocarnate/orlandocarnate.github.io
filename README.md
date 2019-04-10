@@ -1,8 +1,8 @@
-# [Orlando Carnate GitHub Home Page](https://orlandocarnate.github.io/)
+# [Orlando Carnate Portfolio](https://orlandocarnate.com/)
 
 ## Overview
 I am Full Stack Developer specializing in programming, with skills in JavaScript, Bootstrap, SQL, and Python. I will be updating my portfolio page frequently.
-* [GitHub Portfolio Page](https://orlandocarnate.github.io/)
+* [orlandocarnate.com](https://orlandocarnate.com/) Portfolio Site
 * [GitHub Repositories](https://github.com/orlandocarnate)
 * [LinkedIn](https://www.linkedin.com/in/orlando-carnate/)
 
