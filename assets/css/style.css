@@ -24,6 +24,10 @@ footer, h5 {
     /* color: #fe6f61; */
 }
 
+.tech {
+    text-decoration: underline;
+}
+
 .btn {
     background-color: #fe6f61;
     border: none;
