@@ -1,9 +1,18 @@
-/* html {
-    font-size: 1rem;
-} */
+html {
+    scroll-behavior: smooth;
+    /* font-size: 1rem; */
+  }
 body {
-    background-image: url('../images/white_carbon.png');
+    /* background-image: url('../images/white_carbon.png'); */
     font-family: 'Monda', sans-serif;
+}
+
+/* .navbar-brand, h2, .footer-text {
+    text-shadow: 2px 2px #303030
+} */
+
+.contact-info a {
+    color: white;
 }
 
 .navbar-brand, #portfolio {
@@ -12,16 +21,17 @@ body {
 }
 
 nav, footer, .title {
-    background-image: url('../images/dark-paths.png');
-    color: white;
+    background-position: center;
+    /* color: white; */
+}
+
+.jumbotron {
+    background-image: url('../images/blur-circles-colors-957035.jpg');
+    background-position: center;
 }
 
 #contact {
     cursor: pointer;
-}
-
-footer, h5 {
-    /* color: #fe6f61; */
 }
 
 .tech {
@@ -43,7 +53,9 @@ footer, h5 {
 
 .portfolio-card {
     /* background-color: #ffffff7a; */
-    background-image: url('../images/dark-paths.png');
+    background-image: url('../images/altitude-astrology-astronomy-1819650.jpg');
+    background-position: center;
+    background-size: auto 100%;
     padding: 20px;
     border-radius: 15px;
     color: white;
