@@ -5,6 +5,7 @@ html {
 body {
     /* background-image: url('../images/white_carbon.png'); */
     font-family: 'Monda', sans-serif;
+    background-color: #f3f3f3;
 }
 
 /* .navbar-brand, h2, .footer-text {
@@ -39,7 +40,7 @@ nav, footer, .title {
 }
 
 .btn {
-    background-color: #fe6f61;
+    background-color: #009f86;
     border: none;
 }
 
@@ -52,13 +53,14 @@ nav, footer, .title {
 }
 
 .portfolio-card {
-    /* background-color: #ffffff7a; */
-    background-image: url('../images/altitude-astrology-astronomy-1819650.jpg');
+    background-color: #dfdfdf;
+    /* background-image: url('../images/altitude-astrology-astronomy-1819650.jpg'); */
     background-position: center;
     background-size: auto 100%;
     padding: 20px;
-    border-radius: 15px;
-    color: white;
+    border-radius: 5px;
+    /* color: white; */
+    box-shadow: 3px 3px 5px rgb(66, 66, 66);
 }
 
 .portfolio-img {
