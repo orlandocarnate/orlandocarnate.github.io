@@ -53,14 +53,17 @@ nav, footer, .title {
 }
 
 .portfolio-card {
-    background-color: #dfdfdf;
+    border-top-color: #009f86;
+    border-top-style: solid;
+    border-top-width: 10px;
+    background-color: white;
     /* background-image: url('../images/altitude-astrology-astronomy-1819650.jpg'); */
     background-position: center;
     background-size: auto 100%;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 0px 0px 5px 5px;
     /* color: white; */
-    box-shadow: 3px 3px 5px rgb(66, 66, 66);
+    box-shadow: 3px 3px 5px rgb(122, 122, 122);
 }
 
 .portfolio-img {
