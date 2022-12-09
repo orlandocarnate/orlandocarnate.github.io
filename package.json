@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/orlandocarnate/orlandocarnate.github.io#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.3"
   }
 }
